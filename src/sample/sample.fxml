@@ -28,25 +28,20 @@
                         <Font name="Apple Braille" size="9.0" />
                      </font>
                   </Label>
+                  <Label alignment="CENTER" contentDisplay="CENTER" layoutX="57.0" layoutY="206.0" prefHeight="34.0" prefWidth="104.0" style="-fx-background-color: #b8b5b3#b8b5b3 #b8b5b3#b8b5b3 #b8b5b3#b8b5b3 #b8b5b3#b8b5b3;" text="User Name " textAlignment="CENTER" />
                </children>
             </Pane>
             <Pane layoutX="211.0" layoutY="-2.0" prefHeight="378.0" prefWidth="392.0" style="-fx-background-color: #dcdad9#dcdad9;">
                <children>
-                  <ScrollBar layoutX="375.0" layoutY="2.0" orientation="VERTICAL" prefHeight="288.0" prefWidth="17.0" />
+                  <ScrollBar layoutX="370.0" orientation="VERTICAL" prefHeight="288.0" prefWidth="17.0" />
                   <Pane layoutY="287.0" prefHeight="93.0" prefWidth="393.0" style="-fx-background-color: #b8b5b3#b8b5b3 #b8b5b3#b8b5b3;">
                      <children>
-                        <Label layoutX="14.0" layoutY="8.0" prefHeight="24.0" prefWidth="58.0" style="-fx-background-color: #b8b5b3#b8b5b3;" text="From :">
+                        <Label layoutX="14.0" layoutY="8.0" prefHeight="24.0" prefWidth="149.0" style="-fx-background-color: #b8b5b3#b8b5b3;" text="Type de probleme">
                            <font>
                               <Font size="19.0" />
                            </font>
                         </Label>
-                        <Label layoutX="207.0" layoutY="8.0" prefHeight="24.0" prefWidth="45.0" style="-fx-background-color: #b8b5b3#b8b5b3;" text="To: ">
-                           <font>
-                              <Font size="19.0" />
-                           </font>
-                        </Label>
-                        <TextField layoutX="67.0" layoutY="6.0" prefHeight="27.0" prefWidth="127.0" />
-                        <TextField layoutX="238.0" layoutY="7.0" prefHeight="27.0" prefWidth="127.0" />
+                        <TextField layoutX="165.0" layoutY="7.0" prefHeight="27.0" prefWidth="198.0" />
                         <TextArea layoutX="17.0" layoutY="39.0" prefHeight="41.0" prefWidth="282.0" />
                         <Button layoutX="302.0" layoutY="44.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="63.0" style="-fx-background-color: #2c2c2c#2c2c2c #2c2c2c#2c2c2c;" text="Envoyer" textFill="WHITE" />
                      </children>

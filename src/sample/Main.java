@@ -14,6 +14,7 @@ public class Main extends Application {
         primaryStage.setTitle("Hello World");
         primaryStage.setScene(new Scene(root, 620, 400));
         primaryStage.show();
+       //pour une fenetre ou autre .setVisible(true);
     }
 
 
